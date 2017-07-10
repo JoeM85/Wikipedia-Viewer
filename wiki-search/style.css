@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eae7dc;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #e85a4f;
+    font-size: 60px;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+
+#random-link-container {
+    margin-top: 40px;
+}
+
+input {
+    width: 260px;
+    height: 35px;
+    font-size: 15px;
+    padding-left: 7px;
+    color: #8e8d8a;
+}
+
+.ion-android-search {
+    color: #e85a4f;
+    font-size: 24px;
+}
+
+i {
+    padding: 9.5px 25px ;
+    margin-top: 1px;
+    color: #e85a4f;
+}
+
+#search-btn { 
+    border: 1.5px solid #8e8d8a;
+    background-color: #d7d5cb;
+    border-radius: 2px;
+}
+
+#search-btn:hover {
+    background-color: #c4c2b9;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    max-width: 600px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+a:hover {
+    color: #6c6c69;
+}
+
+li {
+    height: 150px;
+    max-height: 600px;
+    padding: 0 10px;
+}
+
+span {
+    padding: 0 15px;
+}
+
+span:hover {
+    border-left: 2px solid #e98074;
+    border-right: 2px solid #e98074;
+}
+
+a {
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #8e8d8a;
+}
+
+#content-container {
+    text-align: center;
+    margin-top: 15%;
+}
+
+ul li {
+    display: block;
+}
+
+ul li span {
+    display: inline-block;  
+    vertical-align: middle;     
+}
+
+ul li:before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;       
+}
+
